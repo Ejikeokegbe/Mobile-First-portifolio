@@ -5,60 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"/>
     <title>My Portfolio Page</title>
 </head>
 <body>
-  <div class="main">
+  <main>
     <header>
-      <a href="#" class="logo-title">My Logo</a>
-      <nav>
-        <ul class="hamburger">
-         <li>
-            <img class="stroke" src="myimages/Union.png" alt="stroke">
-         </li>
-        </ul>
+      <nav class="flexr container">
+        <a href="#" class="logo">
+          <img src="pimages/MyLogo.png" width="50px" height="20px"
+            alt="github icon" />
+        </a>
+        <img src="pimages/menu button.png" width="18px" height="12px" id="menu" alt="menu icon" />
       </nav>
     </header>
-
-    <main class="hero-intro">
-      <div class="hero-intro-container">
-        <div class="hero-container">
-          <h1 class="hero-intro-me">I'm Clifford Glad to see you!</h1>
-          <p class="intro-description">
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you
-            like what you see and have a project you need coded, don’t
-            hestiate to contact me.
-          </p>
-          <h3 class="lets-connect">LET’S CONNECT</h3>
-          <ul class="my-social-icons">
-            <li class="icons">
-              <a href="#"><img src="myimages/twitter.svg" alt="Twitter" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"
-                ><img src="myimages/Linkedin icon.svg" alt="LinkedIn"
-              /></a>
-            </li>
-            <li class="icons">
-              <a href="#"><img src="myimages/media.svg" alt="Medium" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"><img src="myimages/github.svg" alt="GitHub" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"
-                ><img src="myimages/Vector (4).svg" alt="AngelList"
-              /></a>
-            </li>
-          </ul>
-        </div>
+    <section class="container flexc" id="header">
+      <div class="mt">
+        <h1>I’m Clifford. 
+          <br />
+          Glad to see you!
+        </h1>
+        <p>
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hesitate to contact
+          me.
+        </p>
       </div>
-    </main>
-  </div>
+      <div>
+        <h3><a href="#" class="link">LET’S CONNECT</a></h3>
+        <ul class="flexr">
+          <li>
+            <a href="#" class="link">
+              <img src="pimages/twitter.png" width="20px" height="20px" alt="gmail icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="link">
+              <img src="pimages/gmail.svg" width="20px" height="20px" alt="gmail icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="link">
+              <img src="pimages/Linkedin icon.png" width="20px" height="20px" alt="Linkedin icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="link">
+              <img src="pimages/Vector.svg" width="20px" height="20px" alt="github icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="link">
+              <img src="pimages/Vector peace.svg" width="20px" height="20px" alt="peace icon" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
