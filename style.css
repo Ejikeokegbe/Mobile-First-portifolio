@@ -54,7 +54,7 @@ li {
 
 #header {
   background-image: url("pimages/header-background-mobile.png");
-  /*background-position: center;*/
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: calc(100vh - 217px);
