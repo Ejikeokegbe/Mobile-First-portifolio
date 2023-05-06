@@ -7,7 +7,6 @@
 html,
 body {
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
   width: 100%;
   overflow-x: hidden;
 }
@@ -120,7 +119,6 @@ body {
 
 .items h1 {
   color: #172b4d;
-  font-family: arial;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -131,7 +129,6 @@ body {
   text-align: start;
   margin-right: 25px;
   margin-bottom: 10px;
-  font-family: arial;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
