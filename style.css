@@ -85,7 +85,7 @@ body {
   padding-right: 15px;
 }
 
-.section-2 {
+.section-2-desktop {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -280,10 +280,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding-right: 60px;
-}
-
-.section-2-desktop {
-  display: none;
 }
 
 @media only screen and (min-width: 768px) {
