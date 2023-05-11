@@ -110,7 +110,7 @@ body {
 }
 
 .items ul {
-  display: flex;
+  float: left;
   font-size: 12px;
   align-items: center;
   justify-content: flex-start;
