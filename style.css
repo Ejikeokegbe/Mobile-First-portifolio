@@ -22,7 +22,7 @@ body {
   align-items: center;
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 40px;
+  margin-top: 15px;
   border: none; 
 }
 
@@ -51,7 +51,7 @@ body {
   background-image: url("pimages/header-background-mobile.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   border-bottom-left-radius: 100px;
   background-color: rgb(255, 255, 255);
   padding: 160px 25px;
@@ -63,7 +63,7 @@ body {
   font-size: 1.5em;
   font-weight: 700;
   line-height: 30px;
-  padding-top: 130px;
+  padding-top: 80px;
 }
 
 .leading {
@@ -289,9 +289,9 @@ body {
 
 @media only screen and (min-width: 768px) {
   .section-a-container {
-    background-image: url("images/Header\ bg.png");
+    background-image: url("pimages/bg_desktop.svg");
     background-position: center;
-    background-size: cover;
+    background-size: 90% 120%;
     background-repeat: no-repeat;
     display: flex;
     padding: 0 14em;
@@ -313,6 +313,7 @@ body {
 
   .nav_link {
     display: block;
+    align-items: center;
   }
 
   .btn {
@@ -322,7 +323,7 @@ body {
   .nav_link ul {
     display: flex;
     list-style: none;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 50px;
   }
 
@@ -331,6 +332,28 @@ body {
     color: black;
     padding: 10px;
     font-size: 15px;
+  }
+
+  .nav_link ul a:hover {
+    background-color: #6070ff;
+    color: black;
+  }
+
+  .heading {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: 180px;
+  }
+  
+  .leading {
+    font-size: 18px;
+    text-align: start;
+    margin: 10px 0;
+  }
+
+  .socials {
+    padding-bottom: 140px;
   }
 
   .section-b {
@@ -506,7 +529,12 @@ textarea {
 }
 
 .footer-btn:active {
-  background-color: #fff;
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.footer-btn:hover {
+  background-color: #6070ff;
   color: #fff;
 }
 
