@@ -278,65 +278,76 @@ body {
   padding-right: 60px;
 }
 
+
 footer {
   background-color: #6070ff;
-  background-image: url(pimages/contact\ form\ background\ shapes.png);
+  background-image: url(pimages/footer.png);
   background-repeat: no-repeat;
-  align-items: center;
-  width: 100%;
+  background-size: 70% 90%;
+  background-position: right;
+  display: flex;
   flex-direction: column;
-  background-size: contain;
-  border: 35px solid white;
+  align-items: center;
+  border-radius: 100px 0 0 0;
+  padding: 6rem 1rem;
+  gap: 2rem;
+  margin-top: 1rem;
+  height: 100%;
 }
 
-.mycontainer {
+.lasting {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding-bottom: 15px;
 }
 
-.mycontainer h2 {
+.lasting h3 {
   font-size: 40px;
   font-weight: 700;
   color: #fff;
   text-align: center;
-  padding-top: 60px;
 }
 
-.mycontainer p {
-  font-size: 30px;
+.lasting p {
+  font-size: 20px;
   font-weight: 400;
-  color: #fff;
+  color: #ebebff;
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.form-taget {
+.form ul {
+  list-style: none;
   display: flex;
-  padding-left: 60px;
-  padding-bottom: 30px;
   flex-direction: column;
-  margin-top: 1rem;
+  gap: 1rem;
 }
 
-.form input {
-  margin: 15px;
-  padding: 15px;
-  width: 70%;
+.form input,
+textarea {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 25em;
+  color: #b3bac5;
 }
 
-.form button {
-  margin: 10px;
-  margin-left: 60px;
-  border-radius: 10px;
-  padding: 15px;
+.footer-btn {
+  background: #fff;
+  border-radius: 8px;
+  width: 142px;
+  height: 48px;
+  text-align: center;
+  padding: 12px 16px;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
 }
 
-.form textarea {
-  width: 70%;
-  margin: 15px;
-}
-
-.btn-num:hover {
-  background-color: aqua;
+.footer-btn:active {
+  background-color: #2230d2;
+  color: #fff;
 }
