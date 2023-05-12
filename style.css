@@ -42,7 +42,7 @@ body {
 }
 
 .section-a {
-  height: 720px;
+  height: 100%;
   background-color: #f7f7f9;
   border-style: none;
 }
@@ -51,7 +51,7 @@ body {
   background-image: url("pimages/header-background-mobile.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   border-bottom-left-radius: 100px;
   background-color: rgb(255, 255, 255);
   padding: 160px 25px;
@@ -85,7 +85,7 @@ body {
   padding-right: 15px;
 }
 
-.section-2 {
+.section-b {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -94,12 +94,12 @@ body {
   padding-bottom: 100px;
 }
 
-.container-1 img {
+.container-bc img {
   padding: 20px 20px;
   width: 100%;
 }
 
-.container-1 {
+.container-bc {
   background-color: white;
   margin-left: 1.2em;
   margin-right: 1.2em;
@@ -110,19 +110,19 @@ body {
   padding-bottom: 20px;
 }
 
-.items ul {
+.content ul {
   display: flex;
   font-size: 12px;
   align-items: center;
   justify-content: flex-start;
 }
 
-.items {
+.content {
   padding-left: 20px;
   margin-right: 50px;
 }
 
-.items h1 {
+.content h1 {
   color: #172b4d;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -131,7 +131,7 @@ body {
   line-height: 44px;
 }
 
-.items p {
+.content p {
   text-align: start;
   margin-right: 25px;
   margin-bottom: 10px;
@@ -143,27 +143,27 @@ body {
   color: #344563;
 }
 
-.items ul li {
+.content ul li {
   padding-right: 5px;
   font-weight: 700;
   font-size: 1.2em;
   margin-bottom: 10px;
 }
 
-.items ul li:nth-child(1) {
+.content ul li:nth-child(1) {
   list-style: none;
   margin-right: 10px;
   font-weight: 500;
 }
 
-.items ul li:nth-child(2) {
+.content ul li:nth-child(2) {
   color: #7a869a;
   margin-left: 10px;
   margin-right: 10px;
   font-weight: 400;
 }
 
-.items ul li:nth-child(3) {
+.content ul li:nth-child(3) {
   color: #7a869a;
   margin-left: 10px;
   margin-right: 10px;
@@ -212,11 +212,11 @@ body {
   color: white;
 }
 
-.section-3 {
+.section-c {
   background-color: #f7f7f9;
 }
 
-.container-3 {
+.container-c {
   background-color: white;
   border-top-right-radius: 100px;
   padding-left: 30px;
@@ -282,15 +282,15 @@ body {
   padding-right: 60px;
 }
 
-.section-2-desktop {
+.desktop {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-1-container {
+  .section-a-container {
     background-image: url("pimages/header-background-mobile.png");
     background-position: center;
-    background-size: cover;
+    background-size: 90% 90%;
     background-repeat: no-repeat;
     display: flex;
     padding: 0 14em;
@@ -332,11 +332,11 @@ body {
     font-size: 15px;
   }
 
-  .section-2 {
+  .section-b {
     display: none;
   }
 
-  .section-2-desktop {
+  .desktop {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
@@ -345,12 +345,12 @@ body {
     padding-bottom: 5%;
   }
 
-  .container-1 img {
+  .container-bc img {
     width: 100%;
     height: 100%;
   }
 
-  .container-1 {
+  .container-bc {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -360,7 +360,7 @@ body {
     border-radius: 24px;
   }
 
-  .container-1 > * {
+  .container-bc > * {
     flex-basis: calc(50% - 20px);
   }
 
@@ -369,25 +369,25 @@ body {
     margin-right: -1px;
   }
 
-  .items {
+  .content {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     width: max-content;
   }
 
-  .items ul {
+  .content ul {
     width: max-content;
     font-size: 18px;
     color: #6b778c;
   }
 
-  .items p {
+  .content p {
     /* margin-top: -20px; */
     font-size: 16px;
   }
 
-  .container-3 {
+  .container-c {
     display: grid;
     grid-template-columns: 1.4fr 2fr;
   }
@@ -420,13 +420,13 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .container-1 {
+  .container-bc {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .container-1 > * {
+  .container-bc > * {
     flex-basis: calc(33.333% - 20px);
   }
 
@@ -500,10 +500,16 @@ textarea {
   font-size: 17px;
   font-weight: 500;
   border: none;
+  transition-duration: 0.4s;
   cursor: pointer;
 }
 
 .footer-btn:active {
-  background-color: #2230d2;
+  background-color: black;
+  color: #fff;
+}
+
+.footer-btn:hover {
+  background-color: red;
   color: #fff;
 }
