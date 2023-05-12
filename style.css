@@ -23,7 +23,7 @@ body {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 15px;
-  border: none; 
+  border: none;
 }
 
 .navbar-content img {
@@ -345,7 +345,7 @@ body {
     line-height: 30px;
     padding-top: 180px;
   }
-  
+
   .leading {
     font-size: 18px;
     text-align: start;
@@ -537,4 +537,3 @@ textarea {
   background-color: #6070ff;
   color: #fff;
 }
-
