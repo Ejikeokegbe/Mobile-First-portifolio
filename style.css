@@ -7,6 +7,7 @@
 html,
 body {
   font-size: 18px;
+  font-family: "Poppins", sans-serif;
   width: 100%;
   overflow-x: hidden;
 }
@@ -50,7 +51,7 @@ body {
   background-image: url("pimages/header-background-mobile.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 90%;
+  background-size: cover;
   border-bottom-left-radius: 100px;
   background-color: rgb(255, 255, 255);
   padding: 160px 25px;
@@ -58,19 +59,19 @@ body {
   height: 100%;
 }
 
-.main1 {
+.heading {
   font-size: 2.5em;
   font-weight: 700;
   line-height: 52px;
 }
 
-.paging {
+.leading {
   font-size: 18px;
   text-align: start;
   margin: 20px 0;
 }
 
-.social-main1 {
+.social-heading {
   color: #6070ff;
   margin-bottom: 8px;
 }
@@ -84,7 +85,7 @@ body {
   padding-right: 15px;
 }
 
-.desktop {
+.section-2 {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -93,15 +94,15 @@ body {
   padding-bottom: 100px;
 }
 
-.container-b img {
+.container-1 img {
   padding: 20px 20px;
   width: 100%;
 }
 
-.container-b {
+.container-1 {
   background-color: white;
-  margin-left: 1em;
-  margin-right: 1rem;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
   justify-self: center;
   margin-top: 100px;
   border-radius: 20px;
@@ -109,19 +110,19 @@ body {
   padding-bottom: 20px;
 }
 
-.content ul {
+.items ul {
   display: flex;
   font-size: 12px;
   align-items: center;
   justify-content: flex-start;
 }
 
-.content {
+.items {
   padding-left: 20px;
   margin-right: 50px;
 }
 
-.content h1 {
+.items h1 {
   color: #172b4d;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -130,10 +131,11 @@ body {
   line-height: 44px;
 }
 
-.content p {
+.items p {
   text-align: start;
   margin-right: 25px;
   margin-bottom: 10px;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -141,27 +143,27 @@ body {
   color: #344563;
 }
 
-.content ul li {
+.items ul li {
   padding-right: 5px;
   font-weight: 700;
   font-size: 1.2em;
   margin-bottom: 10px;
 }
 
-.content ul li:nth-child(1) {
+.items ul li:nth-child(1) {
   list-style: none;
   margin-right: 10px;
   font-weight: 500;
 }
 
-.content ul li:nth-child(2) {
+.items ul li:nth-child(2) {
   color: #7a869a;
   margin-left: 10px;
   margin-right: 10px;
   font-weight: 400;
 }
 
-.content ul li:nth-child(3) {
+.items ul li:nth-child(3) {
   color: #7a869a;
   margin-left: 10px;
   margin-right: 10px;
@@ -210,11 +212,11 @@ body {
   color: white;
 }
 
-.section-c {
+.section-3 {
   background-color: #f7f7f9;
 }
 
-.container-c {
+.container-3 {
   background-color: white;
   border-top-right-radius: 100px;
   padding-left: 30px;
@@ -280,11 +282,15 @@ body {
   padding-right: 60px;
 }
 
+.section-2-desktop {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
-  .section-a-container {
+  .section-1-container {
     background-image: url("pimages/header-background-mobile.png");
     background-position: center;
-    background-size: 100% 90%;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     padding: 0 14em;
@@ -326,7 +332,11 @@ body {
     font-size: 15px;
   }
 
-  .desktop {
+  .section-2 {
+    display: none;
+  }
+
+  .section-2-desktop {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
@@ -335,12 +345,12 @@ body {
     padding-bottom: 5%;
   }
 
-  .container-b img {
+  .container-1 img {
     width: 100%;
     height: 100%;
   }
 
-  .container-b {
+  .container-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,7 +360,7 @@ body {
     border-radius: 24px;
   }
 
-  .container-b > * {
+  .container-1 > * {
     flex-basis: calc(50% - 20px);
   }
 
@@ -359,25 +369,25 @@ body {
     margin-right: -1px;
   }
 
-  .content {
+  .items {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     width: max-content;
   }
 
-  .content ul {
+  .items ul {
     width: max-content;
     font-size: 18px;
     color: #6b778c;
   }
 
-  .content p {
+  .items p {
     /* margin-top: -20px; */
     font-size: 16px;
   }
 
-  .container-c {
+  .container-3 {
     display: grid;
     grid-template-columns: 1.4fr 2fr;
   }
@@ -410,13 +420,13 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .container-b {
+  .container-1 {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .container-b > * {
+  .container-1 > * {
     flex-basis: calc(33.333% - 20px);
   }
 
