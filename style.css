@@ -343,10 +343,17 @@ textarea {
   font-size: 17px;
   font-weight: 500;
   border: none;
+  transition-duration: 0.4s;
   cursor: pointer;
 }
 
-.footer-btn:active {
-  background-color: #2230d2;
+.footer-btn:hover {
+  background-color: red;
   color: #fff;
 }
+
+.footer-btn:active {
+  background-color: black;
+  color: #fff;
+}
+
