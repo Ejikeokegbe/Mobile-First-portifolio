@@ -64,12 +64,14 @@ body {
   font-weight: 700;
   line-height: 30px;
   padding-top: 80px;
+  color: #091e42;
 }
 
 .leading {
   font-size: 18px;
   text-align: start;
   margin: 10px 0;
+  color: #344563;
 }
 
 .social-heading {
@@ -250,6 +252,11 @@ body {
 
 .languages {
   padding-top: 50px;
+  color: #344563;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'poppins';
+  line-height: 24px;
 }
 
 .languages-div {
@@ -257,6 +264,7 @@ body {
   align-items: center;
   padding-left: 20px;
   list-style: none;
+  margin: 10px;
 }
 
 .framework {
@@ -344,12 +352,14 @@ body {
     font-weight: 700;
     line-height: 30px;
     padding-top: 180px;
+    color: #091e42;
   }
 
   .leading {
     font-size: 18px;
     text-align: start;
     margin: 10px 0;
+    color: #344563;
   }
 
   .socials {
