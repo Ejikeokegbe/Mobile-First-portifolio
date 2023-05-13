@@ -100,6 +100,12 @@ body {
 .container-bc img {
   padding: 20px 20px;
   width: 100%;
+  transition: width 2s, height 4s;
+}
+
+.container-bc img:hover {
+  width: 120%;
+  height: 100%;
 }
 
 .container-bc {
