@@ -104,7 +104,7 @@ HTML and CSS(Flexbox)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://Ejikeokegbe.github.io/Mobile-First-potifolio/)
+- [Live Demo Link](https://ejikeokegbe.github.io/Mobile-First-portifolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
