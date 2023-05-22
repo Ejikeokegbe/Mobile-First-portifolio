@@ -45,7 +45,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 23px;
 }
 
 .nav-link:hover {
@@ -418,7 +418,7 @@ li {
   }
   
   .nav-link:hover {
-    color: dodgerblue;
+    color: #6070ff;
   }
   
   li {
