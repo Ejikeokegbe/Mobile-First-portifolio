@@ -12,23 +12,80 @@ body {
   overflow-x: hidden;
 }
 
-.navbar {
+@media only screen and (max-width: 767px) {
+
+header {
   background-color: white;
 }
 
-.navbar-content {
+.nav-menu li {
+  list-style: none;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+  transition: 0.7s ease; 
+}
+.hamburger {
+  display: block;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.navbar {
+  min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 15px;
-  border: none;
+  padding: 0 24px;
 }
 
-.navbar-content img {
-  width: 20px;
-  height: 13px;
+.nav-link:hover {
+  color: dodgerblue;
+}
+
+li {
+  list-style: none;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.nav-item {
+  margin: 16px;
+}
+
+.nav-menu.active {
+  left: 0;
+}
 }
 
 .logo {
@@ -49,10 +106,6 @@ body {
   to {
     transform: rotate(359deg);
   }
-}
-
-.nav_link ul {
-  display: none;
 }
 
 .section-a {
@@ -328,42 +381,52 @@ body {
     text-align: start;
   }
 
-  .navbar-content img {
+  header {
+    background-color: white;
+  }
+  
+  .nav-menu li {
+    list-style: none;
+  }
+  .nav-link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .hamburger {
     display: none;
+    cursor: pointer;
   }
 
   .navbar {
+    min-height: 70px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
   }
 
-  .nav_link {
-    display: block;
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    gap: 60px;
+  }
+  
+  .nav-link {
+    transition: 0.7s ease;
+  }
+  
+  .nav-link:hover {
+    color: dodgerblue;
+  }
+  
+  li {
+    list-style: none;
   }
 
   .btn {
     margin-right: -9px;
-  }
-
-  .nav_link ul {
-    display: flex;
-    list-style: none;
-    margin-top: 20px;
-    margin-right: 50px;
-  }
-
-  .nav_link ul a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    font-size: 15px;
-  }
-
-  .nav_link ul a:hover {
-    background-color: #6070ff;
-    color: black;
   }
 
   .heading {

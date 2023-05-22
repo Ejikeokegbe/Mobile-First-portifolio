@@ -18,17 +18,18 @@
   <main>
     <header>
       <nav class="navbar">
-        <div class="navbar-content">
-          <a href="#" class="logo">My Logo</a>
-          <img src="pimages/menu button.png" />
-        </div>
-        <div class="nav_link hide">
-          <ul>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+        <a href="#" class="logo">My Logo</a>
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="#" class="nav-link">Hello</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#aboutme" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#contactme" class="nav-link">Contact</a></li>
           </ul>
-        </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
       </nav>
     </header>
     <section class="section-a">
@@ -242,7 +243,7 @@
     <section class="section-c">
       <div class="container-c">
         <div class="about-div">
-          <h1 class="about">About Myself</h1>
+          <h1 class="about" id="aboutme">About Myself</h1>
           <p>
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
@@ -299,7 +300,7 @@
         </div>
       </div>
     </section>
-    <footer>
+    <footer id="contactme">
       <div class="lasting">
         <h3>Contact me</h3>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that
@@ -318,5 +319,6 @@
       </form>
     </footer>
   </main>
+  <script src="hambur.js"></script>
 </body>
 </html>
