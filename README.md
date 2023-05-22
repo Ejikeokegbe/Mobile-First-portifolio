@@ -48,6 +48,7 @@ After you're finished please remove all the comments and instructions!
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#deployment)
+   - [Presentation](#presentation)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -168,6 +169,11 @@ Example command:
 
 You can deploy this project using git command:
 >git@github.com:Ejikeokegbe/Mobile-First-Portfolio.git
+
+### Presentation
+
+You can view my project presentation here:
+>https://www.loom.com/share/47adf594304144b0adabfe8d76729c4b
 
 <!--
 Example:
