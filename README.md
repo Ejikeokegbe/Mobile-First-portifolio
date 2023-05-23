@@ -192,7 +192,7 @@ Example:
 
 - GitHub: [@gEjikeokegbe](https://github.com/Ejikeokegbe)
 
-- LinkedIn: [Ejikeokegbe](https://linkedin.com/in/Ejikeokegbe)
+- LinkedIn: [Ejikeokegbe](https://www.linkedin.com/in/clifford-okegbe-2b4627191/)
 
 
 
