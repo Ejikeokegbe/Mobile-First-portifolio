@@ -15,7 +15,6 @@ body {
 @media only screen and (max-width: 767px) {
   header {
     background-color: white;
-    opacity: 0.9;
   }
 
   .nav-link {
@@ -80,6 +79,7 @@ body {
     transition: 0.3s;
     padding-top: 70px;
     padding-left: 20px;
+    list-style: none;
   }
 
   .nav-content {
@@ -88,10 +88,10 @@ body {
 
   .nav-menu.active {
     left: 0;
-    background-color: #6070ff;
     height: 100vh;
     margin-top: -71px;
-  }
+    background: rgba(96, 112, 255, 0.9);
+}
 }
 
 .logo {
@@ -115,7 +115,7 @@ body {
 }
 
 .section-a {
-  background-image: url("pimages/header-background-mobile.png");
+  background: url("pimages/header-background-mobile.png");
   border-style: none;
   background-repeat: no-repeat;
   background-position: center;
